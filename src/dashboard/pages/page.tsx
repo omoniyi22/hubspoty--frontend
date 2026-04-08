@@ -33,7 +33,7 @@ function App() {
 
   const [instanceId] = useState(() => getInstanceId() || 'demo-instance')
   const [connection, setConnection] = useState<ConnectionStatusType | null>(null)
-  const [mappings, setMappings] = useState<FieldMappingConfig | undefined>()
+  const [mappings, setMappings] = useState<FieldMappingConfig | any>()
   const [wixFields, setWixFields] = useState<AvailableField[]>([])
   const [hubSpotProperties, setHubSpotProperties] = useState<AvailableField[]>([])
   const [syncLogs, setSyncLogs] = useState<SyncLog[]>([])
