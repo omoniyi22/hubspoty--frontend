@@ -192,7 +192,7 @@ export function FieldMappingTable({
             <thead className="bg-gray-50 border-b border-gray-200">
               <tr>
                 <th className="text-left px-4 py-3 text-sm font-semibold text-gray-700">Wix Field</th>
-                <th className="text-left px-4 py-3 text-sm font-semibold text-gray-700">Sample Value</th>
+                {/* <th className="text-left px-4 py-3 text-sm font-semibold text-gray-700">Sample Value</th> */}
                 <th className="text-left px-4 py-3 text-sm font-semibold text-gray-700">HubSpot Property</th>
                 <th className="text-left px-4 py-3 text-sm font-semibold text-gray-700">Sync Direction</th>
                 <th className="text-left px-4 py-3 text-sm font-semibold text-gray-700">Transform</th>
@@ -229,7 +229,7 @@ export function FieldMappingTable({
                       </div>
                     </td>
                     
-                    <td className="px-4 py-3">
+                    {/* <td className="px-4 py-3">
                       {sampleValue ? (
                         <div className="flex items-center gap-2">
                           <span className="text-sm text-gray-700 break-all max-w-xs">
@@ -242,7 +242,7 @@ export function FieldMappingTable({
                       ) : (
                         <span className="text-sm text-gray-400 italic">No sample data</span>
                       )}
-                    </td>
+                    </td> */}
                     
                     <td className="px-4 py-3">
                       <div className="flex items-center gap-2">
